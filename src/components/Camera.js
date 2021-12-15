@@ -83,7 +83,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "flex-end",
     alignItems: "center",
-    //marginBotton: 5,
+    marginBottom: 5,
   },
 });
 
