@@ -116,7 +116,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   itemText: {
-    fontSize: 26,
+    fontSize: 27,
   },
   itemRead: {
     textDecorationLine: "line-through",
