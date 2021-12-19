@@ -88,6 +88,7 @@ const styles = StyleSheet.create({
     padding: 5,
     paddingTop: Constants.statusBarHeight + 2,
     backgroundColor: "#f0ee87",
+    
   },
   toolbox: {
     flexDirection: "row",
