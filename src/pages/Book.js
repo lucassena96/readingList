@@ -120,7 +120,7 @@ const Book = ({ navigation }) => {
       </TouchableOpacity>
 
       <TouchableOpacity
-        style={[styles.saveButton/*, !isValid() ? styles.saveButtonInvalid : '' teste */]}
+        style={[!isValid() ? styles.saveButtonInvalid : styles.saveButton]}
         onPress={onSave}>
         <Text style={styles.saveButtonText}>{isEdit ? "Atualizar" : "Cadastrar"}</Text>
       </TouchableOpacity>
@@ -192,7 +192,12 @@ const styles = StyleSheet.create({
     marginBottom: 30,
   },
   saveButtonInvalid: {
-    opacity: 0.5,
+    backgroundColor: '#f39c1250',
+    alignSelf: 'center',
+    borderRadius: 8,
+    paddingVertical: 15,
+    paddingHorizontal: 25,
+    marginBottom: 30,
   },
   saveButtonText: {
     color: '#fff',
