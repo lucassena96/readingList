@@ -120,7 +120,7 @@ const Book = ({ navigation }) => {
       </TouchableOpacity>
 
       <TouchableOpacity
-        style={[styles.saveButton, !isValid() ? styles.saveButtonInvalid : '']}
+        style={[styles.saveButton/*, !isValid() ? styles.saveButtonInvalid : '' teste */]}
         onPress={onSave}>
         <Text style={styles.saveButtonText}>{isEdit ? "Atualizar" : "Cadastrar"}</Text>
       </TouchableOpacity>
