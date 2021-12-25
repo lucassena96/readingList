@@ -92,7 +92,7 @@ const styles = StyleSheet.create({
   },
   toolbox: {
     flexDirection: "row",
-    marginBottom: 5,
+    marginBottom: 6,
   },
   title: {
     flex: 1,
